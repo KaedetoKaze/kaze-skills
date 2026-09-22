@@ -1,0 +1,14 @@
+/.tmp/
+/AGENTS.md
+__pycache__/
+*.py[cod]
+
+/skills/*
+!/skills/handoff-project/
+!/skills/markdown-metadata/
+!/skills/obsidian-lark-sync/
+!/skills/visual-explain/
+!/skills/zotero-library-manager/
+
+# OpenAI 专用的可选界面与调用元数据
+/skills/*/agents/openai.yaml
