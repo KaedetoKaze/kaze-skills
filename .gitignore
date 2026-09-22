@@ -10,5 +10,4 @@ __pycache__/
 !/skills/visual-explain/
 !/skills/zotero-library-manager/
 
-# OpenAI 专用的可选界面与调用元数据
 /skills/*/agents/openai.yaml
