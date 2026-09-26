@@ -8,7 +8,7 @@
 
 | Skill | 简介 |
 | --- | --- |
-| [`handoff-project`](skills/handoff-project/) | 保存、移交和恢复项目现场，覆盖消息中继、中途检查点、阶段收尾与任务恢复。 |
+| [`handoff-project`](skills/handoff-project/) | 在回复中交接项目现场，覆盖消息中继、中途检查点、阶段收尾与任务恢复。 |
 | [`visual-explain`](skills/visual-explain/) | 为关系、流程、结构、比较和状态变化选择最小充分的视觉表达。 |
 | [`markdown-metadata`](skills/markdown-metadata/) | 为 Markdown 文档建立精简、可路由、可追溯且便于持续维护的元数据契约。 |
 | [`zotero-library-manager`](skills/zotero-library-manager/) | 管理 Zotero Desktop 中的本地附件和集合归属，并在写入前预览、写入后验证。 |
@@ -18,7 +18,7 @@
 
 ### `handoff-project`
 
-把项目交接整理成可恢复的工作现场，而不是简单的聊天摘要。它根据任务状态在消息中继、检查点、阶段收尾和恢复四种模式之间路由，并记录真实停点、验证边界、遗留事项与下一步动作。
+把项目交接整理成可恢复的工作现场，而不是简单的聊天摘要。它根据任务状态在消息中继、检查点、阶段收尾和恢复四种模式之间路由，并记录真实停点、验证边界、遗留事项与下一步动作。默认在回复中交接；是否保存到文件遵循项目规则。
 
 适合在以下情况使用：
 

@@ -8,7 +8,7 @@ A focused collection of agent skills for project collaboration, knowledge manage
 
 | Skill | Description |
 | --- | --- |
-| [`handoff-project`](skills/handoff-project/) | Preserve, transfer, and resume project state through relays, checkpoints, closeouts, and recovery. |
+| [`handoff-project`](skills/handoff-project/) | Hand off project state in replies through relays, checkpoints, closeouts, and recovery. |
 | [`visual-explain`](skills/visual-explain/) | Choose the smallest sufficient visual representation for relationships, processes, comparisons, and state changes. |
 | [`markdown-metadata`](skills/markdown-metadata/) | Define lean, routable, traceable, and maintainable metadata contracts for Markdown documents. |
 | [`zotero-library-manager`](skills/zotero-library-manager/) | Manage local attachments and collection membership in Zotero Desktop with preview and post-write verification. |
@@ -18,7 +18,7 @@ A focused collection of agent skills for project collaboration, knowledge manage
 
 ### `handoff-project`
 
-Treats a project handoff as a recoverable worksite rather than a chat summary. It routes work through four modes—relay, checkpoint, closeout, and resume—and records the actual stopping point, verification boundary, remaining work, and next action.
+Treats a project handoff as a recoverable worksite rather than a chat summary. It routes work through four modes—relay, checkpoint, closeout, and resume—and records the actual stopping point, verification boundary, remaining work, and next action. Handoffs default to replies; project rules govern whether they are saved to a file.
 
 Use it when you need to:
 
