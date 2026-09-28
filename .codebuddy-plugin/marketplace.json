@@ -1,0 +1,68 @@
+{
+  "name": "kaze-skills",
+  "owner": {
+    "name": "KaedetoKaze"
+  },
+  "plugins": [
+    {
+      "name": "handoff-project",
+      "description": "项目与 Agent 交接，覆盖消息中继、中途检查点、阶段收尾与任务恢复。",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "homepage": "https://github.com/KaedetoKaze/kaze-skills",
+      "license": "MIT",
+      "skills": [
+        "./skills/handoff-project"
+      ]
+    },
+    {
+      "name": "visual-explain",
+      "description": "为关系、流程、结构、比较和状态变化选择最小充分的视觉表达。",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "homepage": "https://github.com/KaedetoKaze/kaze-skills",
+      "license": "MIT",
+      "skills": [
+        "./skills/visual-explain"
+      ]
+    },
+    {
+      "name": "markdown-metadata",
+      "description": "为 Markdown 文档建立精简、可路由、可追溯的元数据契约。",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "homepage": "https://github.com/KaedetoKaze/kaze-skills",
+      "license": "MIT",
+      "skills": [
+        "./skills/markdown-metadata"
+      ]
+    },
+    {
+      "name": "zotero-library-manager",
+      "description": "管理 Zotero Desktop 中的本地附件和集合归属。",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "homepage": "https://github.com/KaedetoKaze/kaze-skills",
+      "license": "MIT",
+      "skills": [
+        "./skills/zotero-library-manager"
+      ]
+    },
+    {
+      "name": "obsidian-lark-sync",
+      "description": "同步本地 Markdown／Obsidian 与飞书文档，处理版本、媒体、评论和格式差异。",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "homepage": "https://github.com/KaedetoKaze/kaze-skills",
+      "license": "MIT",
+      "skills": [
+        "./skills/obsidian-lark-sync"
+      ]
+    }
+  ]
+}
